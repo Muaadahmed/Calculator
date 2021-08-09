@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.grid_buttons{
+    width: 500px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#calc_display{
+    grid-column: 1/4;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#calc_display:hover {
+    outline: none;
+}
+
+.equal {
+    grid-column: 2/4;
+}
+
+.grid_buttons div > * {
+    width: 100%;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.3em;
+    background-color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(53, 157, 223);
+    color: white;
+    cursor: pointer;
+}
+
+.equal button{
+    background-color: rgb(53, 157, 223);
+    color: white;
+}
