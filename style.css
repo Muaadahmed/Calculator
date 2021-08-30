@@ -3,22 +3,30 @@ body {
     justify-content: center;
     align-items: center;
     height: 80vh;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
 }
 .grid_buttons{
+    position: relative;
     width: 500px;
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     justify-content: center;
-    border: 1px solid black;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
 }
+
 
 #calc_display{
     grid-column: 1/4;
     outline: none;
     border: none;
-    border-bottom: 1px solid black;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,191,233,1) 0%, rgba(17,121,223,1) 57%);
+    color: white;
+    padding: 20px;
+    font-size: 1.3em;
 }
 
 #calc_display:hover {
@@ -34,6 +42,7 @@ body {
 }
 
 button {
+    position: relative;
     padding: 20px;
     font-size: 1.3em;
     background-color: white;
@@ -47,6 +56,7 @@ button:hover {
 }
 
 .equal button{
-    background-color: rgb(53, 157, 223);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,191,233,1) 0%, rgba(17,121,223,1) 57%);
     color: white;
 }

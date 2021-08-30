@@ -14,3 +14,14 @@ Second Step:
    - Arranged all buttons using CSS Grid.
    - Styled the buttons to make it appealing.
 
+
+Third Step:
+
+  Wiring up the JavaScript:
+   - Created mulitple event listeners; when user clicks on an operator, numbers, etc.
+   - Used objects to store the values of both the operator and the results.
+   - Everytime a user clicks the equals operator, the evaluationOperation function takes the first value and the second value from the object along with the operator and performs a calculation using the operate function. It then stores the result of the operation in what was the first value.
+
+
+Most Chalenging Parts of the Project:
+   - 

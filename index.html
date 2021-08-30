@@ -9,24 +9,24 @@
 </head>
 <body>
     <div class="grid_buttons">
-        <input type="text" id ="calc_display" readonly>
-        <div class="decimal"><button>.</button></div>
-        <div class="multiply"><button>*</button></div>
-        <div class="divide"><button>/</button></div>
-        <div class="add"><button>+</button></div>
-        <div class="subtract"><button>-</button></div>
+        <input type="text" id ="calc_display" value="" dir="rtl" readonly>
+        <div id = "decimal"><button class="number">.</button></div>
+        <div><button class="operator" id="multiply" onclick="operatorTypeFunction('*');">*</button></div>
+        <div><button class="operator" id="divide" onclick="operatorTypeFunction('/')">/</button></div>
+        <div><button class="operator" id="add" onclick="operatorTypeFunction('+')">+</button></div>
+        <div><button class="operator" id="subtract" onclick="operatorTypeFunction('-')">-</button></div>
         <div class="clear"><button>AC</button></div>
-        <div class="number7"><button>7</button></div>
-        <div class="number8"><button>8</button></div>
-        <div class="number9"><button>9</button></div>
-        <div class="number4"><button>4</button></div>
-        <div class="number5"><button>5</button></div>
-        <div class="number6"><button>6</button></div>
-        <div class="number1"><button>1</button></div>
-        <div class="number2"><button>2</button></div>
-        <div class="number3"><button>3</button></div>
-        <div class="number0"><button>0</button></div>
-        <div class="equal"><button>=</button></div>
+        <div id = "7"><button class= "number">7</button></div>
+        <div id = "8"><button class= "number">8</button></div>
+        <div id = "9"><button class= "number">9</button></div>
+        <div id = "4"><button class= "number">4</button></div>
+        <div id = "5"><button class= "number">5</button></div>
+        <div id = "6"><button class= "number">6</button></div>
+        <div id = "1"><button class= "number">1</button></div>
+        <div id = "2"><button class= "number">2</button></div>
+        <div id = "3"><button class= "number">3</button></div>
+        <div id = "0"><button class= "number">0</button></div>
+        <div class="equal"><button id="evaluate">=</button></div>
     </div>
     <script src="calculator.js"></script>
 </body>
