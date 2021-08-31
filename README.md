@@ -24,4 +24,6 @@ Third Step:
 
 
 Most Chalenging Parts of the Project:
-   - 
+   - Storing number inputs into objects.
+   - Chaining multiple operations using object values.
+   - Preventing user from clicking the operator and equals more than once consecutively.
